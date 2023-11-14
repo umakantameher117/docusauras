@@ -7,6 +7,7 @@ sidebar_position: 1
 Let's discover **Video wiki in less than 5 minutes**.
 
 ## Getting Started
+- [Click Here](./Getting%20Started/SignUp.md) to Get started.
 
 ## New to Video Wiki? Start Here
 
@@ -14,19 +15,19 @@ Let's discover **Video wiki in less than 5 minutes**.
 
 ## How to create a new cast?
 
--[Step-by-step instructions on how to build your first cast.](/docs/Cast-Generation#)
+-[Step-by-step instructions on how to build your first cast.](./Cast-Generation.md)
 
 ## How to add drops?
 
--[Step-by-step instructions on how to add your drops.](/docs/NFT#)
+-[Step-by-step instructions on how to add your drops.](./NFT.md)
 
 ## How to Go Live?
 
--[Step-by-step instructions on how to Go Live.](/docs/Cast-Generation#)
+-[Step-by-step instructions on how to Go Live.](./GoLive.md)
 
-## Know about our latest features?
+## Join cast
 
--[Click here to know.](/docs/Getting%20Started/Cast-Generation#)
+-[Click here to know.](./Cast-Join.md)
 
 ## Checkout our pricing?
 
