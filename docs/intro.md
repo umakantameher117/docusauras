@@ -29,6 +29,4 @@ Let's discover **Video wiki in less than 5 minutes**.
 
 -[Click here to know.](./Cast-Join.md)
 
-## Checkout our pricing?
 
--[Videowiki has the best features for the minimal pricing](/docs/Getting%20Started/Cast-Generation#)
