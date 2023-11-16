@@ -6,10 +6,9 @@
 
 import { themes as prismThemes } from "prism-react-renderer";
 
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Video Wiki",
+  title: "VideoWiki",
   tagline: "Cast your content from the future!",
   favicon: "img/logo.svg",
 
@@ -67,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "Video Wiki",
+        title: "VideoWiki",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
@@ -92,6 +91,7 @@ const config = {
         logo: {
           src: "img/castlogo.svg",
         },
+
         links: [
           {
             title: "Docs",
@@ -138,6 +138,16 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      colorMode: {
+        // This will set the default mode of your website to 'dark'
+        defaultMode: "dark",
+
+        // This will disable the switch in the navbar that allows users to change the mode
+        disableSwitch: true,
+
+        // This will ignore the color scheme set by the user's system preferences
+        respectPrefersColorScheme: false,
       },
     }),
 };
