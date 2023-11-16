@@ -5,57 +5,118 @@
   background-color: var(--ifm-background-color);
 }
 
-  
+.cast {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.top,
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.topleft,
+.topright {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bleft,
+.bmid,
+.bright {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+.btn {
+  background-color: #d7df23; /* dark yellow */
+  border: none;
+  color: black;
+  font-weight: 700;
+  padding: 15px 32px; /* makes the button bigger */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 8px; /* rounded corners */
+}
+/* Mobile view */
+@media (max-width: 768px) {
+  .main-wrapper {
+    flex-direction: column;
+    background-color: var(--ifm-background-color);
+  }
+
   .cast {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .links {
-    flex: 3;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .top, .bottom {
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 30px;
   }
-  
-  .topleft, .topright {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+  .cast img {
+    /* Prevent the logo from shrinking */
+    flex-shrink: 0;
+    height: 20rem;
+    width: 20rem;
   }
-  
-  .bleft, .bmid, .bright {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  h3 {
-    margin-bottom: 10px;
-  }
-  
-  li {
-    list-style-type: none;
-  }
-  .btn {
-    background-color: #d7df23; /* dark yellow */
-    border: none;
-    color: black;
-    font-weight: 700;
-    padding: 15px 32px; /* makes the button bigger */
-    text-align: center;
-    text-decoration: none;
+
+  .cast p {
+    /* Display the copyright content in a box */
     display: inline-block;
-    font-size: 20px;
-    border-radius: 8px; /* rounded corners */
+    padding: 10px;
+    margin: 10px;
   }
-  
+
+  .bleft{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .bleft li{
+padding-right:2rem ;
+  }
+}
+
+/* Desktop view */
+@media (min-width: 769px) {
+  .main-wrapper {
+    flex-direction: row;
+    background-color: var(--ifm-background-color);
+  }
+
+  .cast {
+    flex-direction: column;
+  }
+
+  .cast img {
+    /* Prevent the logo from shrinking */
+    flex-shrink: 0;
+  }
+
+  .cast p {
+    /* Display the copyright content in a box */
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+  }
+}
